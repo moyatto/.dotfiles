@@ -15,6 +15,8 @@ set termguicolors
 colorscheme desert
 set number
 set laststatus=2
+set colorcolumn=80
+highlight ColorColumn guibg=#202020 ctermbg=lightgray
 
 " config: search
 set hlsearch

@@ -1,5 +1,6 @@
 # config: move
 setopt auto_cd
+alias dot='cd ~/.dotfiles'
 
 # config: match
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
