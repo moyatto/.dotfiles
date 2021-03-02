@@ -12,6 +12,7 @@ alias ll='ls -al'
 
 # alias: git
 alias ga='git add'
+alias gaa='git add .'
 alias gl='git log'
 alias gd='git diff'
 alias gs='git status'
