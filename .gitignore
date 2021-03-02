@@ -1,0 +1,12 @@
+# ignore all files
+/*
+/.**
+
+# whitelists
+!/.vimrc
+!/.zshrc
+
+!/README.md
+!/LICENSE
+!.gitignore
+!.gitkeep
