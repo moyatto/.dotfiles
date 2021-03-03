@@ -9,6 +9,7 @@ set nobackup
 set noswapfile
 set autoread
 set hidden
+set fileencodings=utf-8,cp932,euc-jp,sjis
 
 " config: show
 set termguicolors
@@ -17,6 +18,8 @@ set number
 set laststatus=2
 set colorcolumn=80
 highlight ColorColumn guibg=#202020 ctermbg=lightgray
+
+set formatoptions+=mM
 
 " config: search
 set hlsearch
