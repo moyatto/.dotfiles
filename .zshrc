@@ -1,14 +1,22 @@
-# config: move
-setopt auto_cd
-alias dot='cd ~/.dotfiles'
-
-# config: match
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-
 # alias: misc
 alias sz='source ~/.zshrc'
 alias ls='ls -a --color'
 alias ll='ls -al'
+alias grep='grep --color'
+alias gr='grep --color'
+alias cl='clear'
+
+# config: move
+setopt auto_cd
+alias dot='cd ~/.dotfiles'
+alias dw='cd ~/.doworks'
+
+# config: match
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# alias: python
+alias py='python3'
+alias pip='pip3'
 
 # alias: git
 alias ga='git add'
