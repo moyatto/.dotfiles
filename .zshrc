@@ -17,6 +17,8 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 # alias: python
 alias py='python3'
 alias pip='pip3'
+alias venv='source .venv/bin/activate'
+alias venvout='deactivate'
 
 # alias: git
 alias ga='git add'
