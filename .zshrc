@@ -1,10 +1,6 @@
-# alias: misc
-alias sz='source ~/.zshrc'
-alias ls='ls -a --color'
-alias ll='ls -al'
-alias grep='grep --color'
-alias gr='grep --color'
-alias cl='clear'
+# prompt
+PROMPT='%F{yellow}%~%f %# '
+RPROMPT='%F{yellow}[%D %*]%f'
 
 # config: move
 setopt auto_cd
@@ -13,6 +9,14 @@ alias dw='cd ~/.doworks'
 
 # config: match
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# alias: misc
+alias sz='source ~/.zshrc'
+alias ls='ls -aF --color'
+alias ll='ls -l --group-directories-first'
+alias grep='grep --color'
+alias gr='grep --color'
+alias cl='clear'
 
 # alias: python
 alias py='python3'
