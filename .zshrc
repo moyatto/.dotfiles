@@ -17,6 +17,10 @@ alias ll='ls -l'
 alias grep='grep --color'
 alias gr='grep --color'
 alias cl='clear'
+alias less='less -f'
+alias le='less'
+alias cat='cat -n'
+alias ca='cat'
 
 # alias: python
 alias py='python3'
