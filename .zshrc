@@ -59,6 +59,15 @@ alias gll='git pull'
 # alias: vim
 alias v='vim'
 alias vi='vim'
-alias vv='vim ~/.vimrc'
-alias vz='vim ~/.zshrc'
+alias vv='vim ~/.dotfiles/.vimrc'
+alias vz='vim ~/.dotfiles/.zshrc'
+alias vt='vim ~/.dotfiles/.tmux.conf'
 
+
+# alias: tmux
+alias t='tmux'
+alias tls='tmux list-sessions'
+alias tas='tmux attach-session -t'
+alias trs='tmux rename-session -t'
+alias tks='tmux kill-session -t'
+alias tka='tmux kill-server'
