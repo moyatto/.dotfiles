@@ -1,15 +1,11 @@
-" config: vim
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
-
 " config: files
 set nobackup
 set noswapfile
 set autoread
 set hidden
 set fileencodings=utf-8,cp932,euc-jp,sjis
+set formatoptions+=mM
+
 
 " config: show
 set termguicolors
@@ -19,7 +15,6 @@ set laststatus=2
 set colorcolumn=80
 highlight ColorColumn guibg=#202020 ctermbg=lightgray
 
-set formatoptions+=mM
 
 " config: search
 set hlsearch
@@ -30,6 +25,7 @@ set ignorecase
 set smartcase
 nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 
+
 " config: edit
 set wildmenu
 set smartindent
@@ -39,9 +35,21 @@ set tabstop=4
 set shiftwidth=4
 inoremap jk <Esc>
 
+
 " config: move
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 nnoremap j gj
 nnoremap k gk
+
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
+
+inoremap <S-Tab> <C-D>
+
 
 " config: leader
 let g:mapleader = "\<Space>"
