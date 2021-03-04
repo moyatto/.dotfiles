@@ -12,8 +12,8 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # alias: misc
 alias sz='source ~/.zshrc'
-alias ls='ls -aF --color'
-alias ll='ls -l --group-directories-first'
+alias ls='ls -aF --color --group-directories-first'
+alias ll='ls -l' 
 alias grep='grep --color'
 alias gr='grep --color'
 alias cl='clear'
