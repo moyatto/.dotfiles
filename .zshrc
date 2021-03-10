@@ -26,7 +26,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 
 # alias: misc
-alias sz='source ~/.zshrc'
+alias sz='source ~/.zshrc && source ~/.zprofile'
 alias ls='ls -aF --color --group-directories-first'
 alias ll='ls -l' 
 alias grep='grep --color'
