@@ -1,3 +1,9 @@
+# local .zshrc
+if [ -f ~/.zshrc.local ]; then
+    source ~/.zshrc.local
+fi
+
+
 # prompt
 PROMPT='%F{yellow}%~%f %# '
 RPROMPT='%F{yellow}[%D %*]%f'
@@ -27,10 +33,10 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # alias: misc
 alias sz='source ~/.zshrc && source ~/.zprofile'
-alias ls='ls -aF --color --group-directories-first'
-alias ll='ls -l' 
-alias grep='grep --color'
-alias gr='grep --color'
+# alias ls='ls -aF --color --group-directories-first'
+# alias ll='ls -l' 
+# alias grep='grep --color'
+# alias gr='grep --color'
 alias cl='clear'
 alias less='less -f'
 alias le='less'
