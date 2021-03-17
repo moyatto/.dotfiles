@@ -8,6 +8,7 @@ set formatoptions+=mM
 
 
 " config: visual
+syntax enable
 set termguicolors
 " colorized config for vim in tmux
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
